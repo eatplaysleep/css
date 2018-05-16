@@ -27,18 +27,20 @@
 	--snapchat: #fffc00;
 	--pale-grey: #f3f4f6;
 
-
  /* Buttons */
 
 
  	/* Primary */
  	--button-height-primary: 32px;
- 	--button-widght-primary: 100%;
-	--button-border-primary: ;
+ 	--button-width-primary: fit-content;
+	--button-border-primary: none;
 	--button-border-radius-primary: 5px;
+	--button-box-shadow-primary: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
 	--button-background-color-primary: var(--gradient-sky-blue);
+  	--button-padding-primary: 0px 18px;
 	--button-text-color-primary: var(--white);
 	--button-text-size-primary: 12px;
+	--button-text-transform-primary: uppercase;
 
 
  	/* activated */
@@ -216,7 +218,7 @@
  /* Gradients */
 
  	--gradient-purple:;
- 	--gradient-blue-sky: linear-gradient( 287deg, var(--medium-blue), var(--bright-sky-blue);
- 	--gradient-sky-blue: linear-gradient( 287deg, var(--bright-sky-blue), var(--medium-blue);
- 	--gradient-ltblue_mdblue: linear-gradient( 271deg, var(--light-blue), var(--medium-blue);
+ 	--gradient-blue-sky: linear-gradient( 287deg, var(--medium-blue), var(--bright-sky-blue));
+ 	--gradient-sky-blue: linear-gradient( 287deg, var(--bright-sky-blue), var(--medium-blue));
+ 	--gradient-ltblue_mdblue: linear-gradient( 271deg, var(--light-blue), var(--medium-blue));
 }
