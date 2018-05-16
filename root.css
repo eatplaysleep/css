@@ -1,0 +1,234 @@
+root {
+
+ /* Color Palette */	
+
+	--ghost-white: #fafbfd;
+	--white: #ffffff;
+	--outer-space: #454d5e;
+	--manatee: #9aa2ab;
+	--platinum: #dfe1e5;
+	--magic-potion: #ff4165;
+	--gun-metal: #2d3137;
+	--bright-sky-blue: #00c0ff;
+	--light-blue: #06bdff;
+	--medium-blue: #4a90e2;
+	--light-green: #8bdd98;
+	--medium-purple: #a177ff
+	--light-purple: #f098ec;
+
+ /* Network Colors */
+
+	--twitter: #1da1f2;
+	--facebook: #3b579d;
+	--youtube: #ff0000;
+	--instagram: #d93175;
+	--snapchat: #fffc00;
+	--pale-grey: #f3f4f6;
+
+
+ /* Buttons */
+
+	.button_primary {
+	  font-family: var(--font-primary-family);
+	  border-radius: var(--button-border-radius-primary);
+	  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+	  cursor: pointer;
+	  font-size: var(--button-text-size-primary);
+	  height: 32px;
+	  padding: 0 18px;
+	  text-transform: uppercase;
+	  width: fit-content
+	  color: var(--button-text-color-primary);
+	  background-color: var(--button-background-color-primary)
+	  ;
+	}
+
+ 	/* Primary */
+ 	--button-height-primary: 32px;
+ 	--button-widght-primary: 100%;
+	--button-border-primary: ;
+	--button-border-radius-primary: 5px;
+	--button-background-color-primary: linear-gradient( 287deg, --bright-sky-blue, --medium-blue);
+	--button-text-color-primary: --white;
+	--button-text-size-primary: 12px;
+
+
+ 	/* activated */
+
+	--button-border-primary-activated: ;
+	--button-background-color-primary-activated: --gradient-blue-sky;
+	--button-text-color-primary-activated: ;
+
+ 	/* deactivated */
+
+	--button-border-primary-deactivated: ;
+	--button-background-color-primary-deactivated: --platinum;
+	--button-text-color-primary-deactivated: --manatee;
+
+ 	/* hover */
+
+	--button-border-primary-hover: ;
+	--button-background-color-primary-hover: --gradient-sky-blue;
+	--button-text-color-primary-hover: ;
+
+ 	/* Secondary */
+ 	--button-height-secondary: 32px;
+ 	--button-widght-secondary: 100%;
+	--button-border-secondary: solid 1px --outer-space;
+	--button-border-radius-secondary: 5px;
+	--button-background-color-secondary: transparent;
+	--button-text-color-secondary: --outer-space;
+	--button-text-size-secondary: ;
+
+
+ 	/* activated */
+
+	--button-border-secondary-activated: ;
+	--button-background-color-secondary-activated: ; 
+	--button-text-color-secondary-activated: ;
+
+ 	/* deactivated */
+
+	--button-border-secondary-deactivated: solid 1px --manatee;
+	--button-background-color-secondary-deactivated: ;
+	--button-text-color-secondary-deactivated: --manatee;
+
+ 	/* hover */
+
+	--button-border-secondary-hover: ;
+	--button-background-color-secondary-hover: --outer-space;
+	--button-text-color-secondary-hover: --ghost-white;
+
+
+ /* Drop-Down Button */
+
+	--drop-down-button-height: 24px;
+	--drop-down-button-width: 100%;
+	--drop-down-button-border: solid 1px --outer-space;
+	--drop-down-button-border-radius: 3px;
+	--drop-down-button-background-color: transparent;
+	--drop-down-button-text-color: --outer-space;
+	--drop-down-button-text-size: 10px;
+
+
+ 	/* activated */
+
+	--drop-down-button-background-color-activated: ;
+	--drop-down-button-text-color-activated:;
+	--drop-down-button-border-activated: solid 1px --bright-sky-blue;
+
+ 	/* deactivated */
+
+	--drop-down-button-background-color-deactivated: ;
+	--drop-down-button-text-color-deactivated:;
+	--drop-down-button-border-deactivated: solid ;
+
+ 	/* hover */
+
+	--drop-down-button-background-hover: ;
+	--drop-down-button-text-color-hover: ;
+	--drop-down-button-border-hover: ;
+
+
+ /* Navigation and Base */
+
+	--border: --platinum;
+	--border-active: --bright-sky-blue;
+	--background-primary: --ghost-white;
+	--background-secondary: --white;
+
+	--nav-divider-activated: gradient-ltblue_mdblue;
+	--nav-divider-deactivated: ;
+
+ /* Checkboxes */
+
+	--checkbox-border: --platinum;
+	--checkbox-activated-border: ;
+	--checkbox-activated-check: --bright-sky-blue;
+	--checkbox-activated-label: --outer-space;
+	--checkbox-deactivated-border: --manatee;
+	--checkbox-deactivated-check: --manatee;
+	--checkbox-deactivated-label: --manatee;
+	--checkbox-hover:;
+
+ /* Text */
+
+	/* Body / Paragraph */
+	--font-primary-family: OpenSans;
+	--font-primary-color: --outer-space;
+	--font-primary-size: 12px;
+	--font-primary-style: normal;
+	--font-primary-weight: normal;
+	--text-primary-align: left;
+
+ 	/* Page Header (h1) */
+	--h1-font-family: ;
+	--h1-font-color: ;
+	--h1-font-size: 24px;
+	--h1-font-style: ;
+	--h1-font-weight: ;
+	--h1-text-align: ;
+	
+	/* Content Header (h2) */
+	--h2-font-family: ;
+	--h2-font-color: ;
+	--h2-font-size: 24px;
+	--h2-font-style: ;
+	--h2-font-weight: ;
+	--h2-text-align: center;
+
+	/* Body Header (h3) */
+	--h3-font-family: ;
+	--h3-font-color: 
+	--h3-font-size: 16px;
+	--h3-font-style: ;
+	--h3-font-weight: ;
+	--h3-text-align: ;
+	
+	/* Primary Navigation: Active (h4) */
+	--h4-font-family: OpenSans;
+	--h4-font-color: --outer-space;
+	--h4-font-size: 16px;
+	--h4-font-style: normal;
+	--h4-font-weight: bold;
+	--h4-text-align: left;
+
+	/* Primary Navigation (h5) */
+	--h5-font-family: OpenSans;
+	--h5-font-color: --manatee;
+	--h5-font-size: 16px;
+	--h5-font-style: normal;
+	--h5-font-weight: normal;
+	--h5-text-align: left;
+
+	/* Content */
+	--contentText-font-family: OpenSans;
+	--contentText-font-color: --outer-space;
+	--contentText-font-size: 14px;
+	--contentText-font-style: normal;
+	--contentText-font-weight: normal;
+	--contentText-text-align: left;
+
+
+	--activated-text: --outer-space;
+	--deactivated-text: --manatee;
+
+ /* Input/Form Text */
+
+	--input-text-activated: --bright-sky-blue;
+	--input-text-deactivated:;
+	--input-text-placeholder: --manatee;
+	--text-color-primary: --outer-space;
+	--text-color-secondary: --manatee;
+
+/* Badges / Banners */
+
+	--badge-purple: linear-gradient( 119deg, --medium-purple, --light-purple);
+
+ /* Gradients */
+
+ 	--gradient-purple
+ 	--gradient-blue-sky: linear-gradient( 287deg, --medium-blue, --bright-sky-blue);
+ 	--gradient-sky-blue: linear-gradient( 287deg, --bright-sky-blue, --medium-blue);
+ 	--gradient-ltblue_mdblue: linear-gradient( 271deg, --light-blue, --medium-blue);
+}
