@@ -165,7 +165,7 @@
 
 	/* Body Header (h3) */
 	--h3-font-family: ;
-	--h3-font-color: 
+	--h3-font-color: ;
 	--h3-font-size: 16px;
 	--h3-font-style: ;
 	--h3-font-weight: ;
@@ -213,7 +213,7 @@
 
  /* Gradients */
 
- 	--gradient-purple
+ 	--gradient-purple:;
  	--gradient-blue-sky: linear-gradient( 287deg, --medium-blue, --bright-sky-blue);
  	--gradient-sky-blue: linear-gradient( 287deg, --bright-sky-blue, --medium-blue);
  	--gradient-ltblue_mdblue: linear-gradient( 271deg, --light-blue, --medium-blue);
