@@ -1,4 +1,4 @@
-root {
+:root {
 
  /* Color Palette */	
 
@@ -28,20 +28,6 @@ root {
 
  /* Buttons */
 
-	.button_primary {
-	  font-family: var(--font-primary-family);
-	  border-radius: var(--button-border-radius-primary);
-	  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
-	  cursor: pointer;
-	  font-size: var(--button-text-size-primary);
-	  height: 32px;
-	  padding: 0 18px;
-	  text-transform: uppercase;
-	  width: fit-content
-	  color: var(--button-text-color-primary);
-	  background-color: var(--button-background-color-primary)
-	  ;
-	}
 
  	/* Primary */
  	--button-height-primary: 32px;
