@@ -144,12 +144,12 @@
  /* Text */
 
 	/* Body / Paragraph */
-	--font-primary-family: 'Open Sans', sans-serif;
-	--font-primary-color: var(--outer-space);
-	--font-primary-size: 12px;
-	--font-primary-style: normal;
-	--font-primary-weight: normal;
-	--text-primary-align: left;
+	--font-family-primary: 'Open Sans', sans-serif;
+	--font-color-primary: var(--outer-space);
+	--font-size-primary: 12px;
+	--font-style-primary: normal;
+	--font-weight-primary: normal;
+	--text-align-primary: left;
 
  	/* Page Header (h1) */
 	--h1-font-family: ;
